@@ -1,0 +1,74 @@
+html, body {
+    height:100%;
+}
+
+body {
+    background-image: url('../img/red_cross_background.jpg');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .tagline {
+        font-family: "Lato", Helvetica, Arial, sans-serif;
+        color: white;
+
+        h1 {
+            font-weight: 900;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+    }
+
+    .btn {
+        border: none;
+        border-radius: 100px;
+    }
+
+    .buttons {
+        margin-top: 60px;
+
+        .or {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 900;
+            color: white;
+            padding: 10px 16px;
+        }
+
+        .btn {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 900;
+
+            &.btn-default {
+                color: white;
+                background: none;
+                border: solid 2px white;
+                padding: 8px 14px;
+
+                &:hover, &:focus, &.focus, &:active, &.active {
+                    color: #666;
+                    background: white;
+                    border: solid 2px white;
+                }
+            }
+
+            &.btn-danger {
+                background: rgba(255,94,58,1);
+                background: -moz-linear-gradient(left, rgba(255,94,58,1) 0%, rgba(255,42,102,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,94,58,1)), color-stop(100%, rgba(255,42,102,1)));
+                background: -webkit-linear-gradient(left, rgba(255,94,58,1) 0%, rgba(255,42,102,1) 100%);
+                background: -o-linear-gradient(left, rgba(255,94,58,1) 0%, rgba(255,42,102,1) 100%);
+                background: -ms-linear-gradient(left, rgba(255,94,58,1) 0%, rgba(255,42,102,1) 100%);
+                background: linear-gradient(to right, rgba(255,94,58,1) 0%, rgba(255,42,102,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e3a', endColorstr='#ff2a66', GradientType=1 );
+            }
+        }
+
+
+    }
+}

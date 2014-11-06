@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url('../img/red_cross_background.jpg');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .tagline {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: white;
+}
+body .tagline h1 {
+  font-weight: 900;
+}
+body .tagline h3 {
+  margin-top: 0;
+}
+body .btn {
+  border: none;
+  border-radius: 100px;
+}
+body .buttons {
+  margin-top: 60px;
+}
+body .buttons .or {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  padding: 10px 16px;
+}
+body .buttons .btn {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+body .buttons .btn.btn-default {
+  color: white;
+  background: none;
+  border: solid 2px white;
+  padding: 8px 14px;
+}
+body .buttons .btn.btn-default:hover,
+body .buttons .btn.btn-default:focus,
+body .buttons .btn.btn-default.focus,
+body .buttons .btn.btn-default:active,
+body .buttons .btn.btn-default.active {
+  color: #666;
+  background: white;
+  border: solid 2px white;
+}
+body .buttons .btn.btn-danger {
+  background: #ff5e3a;
+  background: -moz-linear-gradient(left, #ff5e3a 0%, #ff2a66 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ff5e3a), color-stop(100%, #ff2a66));
+  background: -webkit-linear-gradient(left, #ff5e3a 0%, #ff2a66 100%);
+  background: -o-linear-gradient(left, #ff5e3a 0%, #ff2a66 100%);
+  background: -ms-linear-gradient(left, #ff5e3a 0%, #ff2a66 100%);
+  background: linear-gradient(to right, #ff5e3a 0%, #ff2a66 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5e3a', endColorstr='#ff2a66', GradientType=1);
+}
